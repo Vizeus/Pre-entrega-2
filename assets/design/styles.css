@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to bottom, #eee7e8, #FF6347);
+  background-attachment: fixed;
+}
+body h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+body form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+body form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  outline: none;
+}
+body form input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+body form button {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+body form button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+body form button:active {
+  background-color: #1f618d;
+  transform: scale(1);
+}
+body form .mensaje {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+body ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+body ul li {
+  background: #ffffff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+body ul li:hover {
+  background: #f1f1f1;
+}
+body #cambiarColor {
+  display: block;
+  margin: 5px auto;
+  margin-bottom: 14px;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+body #cambiarColor:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+body #cambiarColor:active {
+  background-color: #388e3c;
+  transform: scale(1);
+}
+
+.fondoAzul {
+  background: linear-gradient(to bottom, #8cc097, #003d7a);
+  background-attachment: fixed;
+}/*# sourceMappingURL=styles.css.map */
